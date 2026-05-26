@@ -1,0 +1,6 @@
+[submodule "FrameWork"]
+	path = FrameWork
+	url = git@github.com:majorkingleo/FrameWork.git
+[submodule "TwelveLittleScoutsClerk"]
+	path = TwelveLittleScoutsClerk
+	url = git@github.com:majorkingleo/TwelveLittleScoutsClerk.git

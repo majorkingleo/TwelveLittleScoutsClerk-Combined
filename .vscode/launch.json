@@ -1,0 +1,62 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "prod",
+            "request": "launch",
+            "mainClass": "at.redeye.twelvelittlescoutsclerk.Main",
+            "projectName": "TwelveLittleScoutsClerk",
+            "args": "",
+            "cwd": "${workspaceFolder}/TwelveLittleScoutsClerk",
+            "preLaunchTask": "Build project (Maven)",
+            "exceptionBreakpoint": {
+                "exceptionBreakpointFilters": [
+                    {
+                        "filter": "java.lang.NoSuchMethodException",
+                        "caught": false,
+                        "uncaught": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "at.redeye.twelvelittlescoutsclerk.Main",
+            "projectName": "TwelveLittleScoutsClerk",
+            "args": "-appname test -apptitle Test",
+            "cwd": "${workspaceFolder}/TwelveLittleScoutsClerk",
+            "preLaunchTask": "Build project (Maven)",
+            "exceptionBreakpoint": {
+                "exceptionBreakpointFilters": [
+                    {
+                        "filter": "java.lang.NoSuchMethodException",
+                        "caught": false,
+                        "uncaught": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "java",
+            "name": "unit_test",
+            "request": "launch",
+            "mainClass": "at.redeye.twelvelittlescoutsclerk.Main",
+            "projectName": "TwelveLittleScoutsClerk",
+            "args": "-appname unittest -apptitle UnitTest",
+            "cwd": "${workspaceFolder}/TwelveLittleScoutsClerk",
+            "preLaunchTask": "Build project (Maven)",
+            "exceptionBreakpoint": {
+                "exceptionBreakpointFilters": [
+                    {
+                        "filter": "java.lang.NoSuchMethodException",
+                        "caught": false,
+                        "uncaught": true
+                    }
+                ]
+            }
+        }
+    ]
+}
