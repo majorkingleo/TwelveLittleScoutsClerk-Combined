@@ -4,5 +4,5 @@
 	url = https://github.com/majorkingleo/FrameWork.git
 [submodule "TwelveLittleScoutsClerk"]
 	path = TwelveLittleScoutsClerk
-	# url = git@github.com:majorkingleo/TwelveLittleScoutsClerk.git
+	#url = git@github.com:majorkingleo/TwelveLittleScoutsClerk.git
 	url = https://github.com/majorkingleo/TwelveLittleScoutsClerk.git
