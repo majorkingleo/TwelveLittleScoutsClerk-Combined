@@ -74,6 +74,31 @@
 				"reveal": "always",
 				"panel": "shared"
 			}
+		},
+		{
+			"label": "Download JDKs (for distribution)",
+			"type": "shell",
+			"command": "bash scripts/download-jdks.sh",
+			"options": {
+				"cwd": "${workspaceFolder}/TwelveLittleScoutsClerk"
+			},
+			"group": "build",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "Build Distribution (Linux + Windows ZIP)",
+			"type": "shell",
+			"command": "bash -c 'mvn package -DskipTests && cd TwelveLittleScoutsClerk && bash scripts/build-dist.sh'",
+			"group": "build",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
 		}
 	]
 }
