@@ -30,7 +30,7 @@
 		{
 			"label": "Package project (Maven)",
 			"type": "shell",
-			"command": "bash -c 'mvn package -DskipTests'",
+			"command": "bash -c 'mvn clean package -Dmaven.test.skip=true'",
 			"group": "build",
 			"problemMatcher": [],
 			"presentation": {
@@ -92,7 +92,7 @@
 		{
 			"label": "Build Distribution (Linux + Windows ZIP)",
 			"type": "shell",
-			"command": "bash -c 'mvn package -Dmaven.test.skip=true && cd TwelveLittleScoutsClerk && bash scripts/build-dist.sh'",
+			"command": "bash -c 'mvn clean package -Dmaven.test.skip=true && cd TwelveLittleScoutsClerk && bash scripts/build-dist.sh'",
 			"group": "build",
 			"problemMatcher": [],
 			"presentation": {
