@@ -99,6 +99,18 @@
 				"reveal": "always",
 				"panel": "shared"
 			}
-		}
+		},
+		{
+			"label": "local install",
+			"type": "shell",
+			"command": "bash -c cd TwelveLittleScoutsClerk && bash scripts/install-desktop-kde.sh --user-only'",
+			"group": "build",
+			"problemMatcher": [],
+			"dependsOn": ["Package project (Maven)"],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		}		
 	]
 }
