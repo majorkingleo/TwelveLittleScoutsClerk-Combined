@@ -1,7 +1,8 @@
 {
     "chat.tools.terminal.autoApprove": {
         "mvn clean": true,
-        "mvn test": true
+        "mvn test": true,
+        "javap": true
     },
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.debug.settings.onBuildFailureProceed": true,
