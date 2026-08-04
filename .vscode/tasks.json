@@ -103,7 +103,7 @@
 		{
 			"label": "local install",
 			"type": "shell",
-			"command": "bash -c cd TwelveLittleScoutsClerk && bash scripts/install-desktop-kde.sh --user-only'",
+			"command": "bash -c 'cd TwelveLittleScoutsClerk && bash scripts/install-desktop-kde.sh --user-only'",
 			"group": "build",
 			"problemMatcher": [],
 			"dependsOn": ["Package project (Maven)"],
