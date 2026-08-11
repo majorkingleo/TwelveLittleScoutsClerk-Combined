@@ -41,6 +41,25 @@
         },
         {
             "type": "java",
+            "name": "prod-tailscale",
+            "request": "launch",
+            "mainClass": "at.redeye.twelvelittlescoutsclerk.Main",
+            "projectName": "TwelveLittleScoutsClerk",
+            "args": "-appname prod-tailscale -apptitle Prod-Tailscale",
+            "cwd": "${workspaceFolder}/TwelveLittleScoutsClerk",
+            "preLaunchTask": "Build project (Maven)",
+            "exceptionBreakpoint": {
+                "exceptionBreakpointFilters": [
+                    {
+                        "filter": "java.lang.NoSuchMethodException",
+                        "caught": false,
+                        "uncaught": true
+                    }
+                ]
+            }
+        },        
+        {
+            "type": "java",
             "name": "unit_test",
             "request": "launch",
             "mainClass": "at.redeye.twelvelittlescoutsclerk.Main",
