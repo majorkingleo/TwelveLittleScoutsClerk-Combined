@@ -4,3 +4,7 @@ target/
 *.war
 *.ear
 .settings/
+# AI modification start (GitHub Copilot / DeepSeek V4 Flash)
+# scratch folder for test data / generated ODS-PDF previews
+tmp/
+# AI modification end
