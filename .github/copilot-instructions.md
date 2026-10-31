@@ -27,7 +27,7 @@ for integrated development and debugging:
   comment markers in Java files.
 - For Python tooling use `.venv` inside each submodule.
 - Do not access the `data/` folder.
-
+- use local tmp folder for temporary files, e.g. `/tmp/ods_check` for LibreOffice ODS validation.
 ---
 
 ## TwelveLittleScoutsClerk Module
