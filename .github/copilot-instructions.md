@@ -40,6 +40,9 @@ Instructions specific to `TwelveLittleScoutsClerk/`:
 - Database query patterns: `TwelveLittleScoutsClerk/.github/skills/database/SKILL.md`
 - Message/translation patterns: `TwelveLittleScoutsClerk/.github/skills/message-translation/SKILL.md`
 - EPC QR code generation: `TwelveLittleScoutsClerk/.github/skills/epc-qr/SKILL.md`
+<!-- AI modification start (GitHub Copilot / DeepSeek V4 Flash) -->
+- ODS / LibreOffice spreadsheet export: `TwelveLittleScoutsClerk/.github/skills/ods-documents/SKILL.md`
+<!-- AI modification end -->
 
 ---
 
