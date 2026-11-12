@@ -27,10 +27,27 @@
 				"panel": "shared"
 			}
 		},
+		// AI modification start (GitHub Copilot / DeepSeek V4.1 Flash)
+		{
+			"label": "Install local JARs (Maven)",
+			"type": "shell",
+			"command": "bash -c 'cd FrameWork && bash scripts/install_local_jars.sh && cd ../TwelveLittleScoutsClerk && bash scripts/install_local_jars.sh'",
+			"group": "build",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		// AI modification end
 		{
 			"label": "Package project (Maven)",
 			"type": "shell",
-			"command": "bash -c 'mvn clean package -Dmaven.test.skip=true'",
+			// AI modification start (GitHub Copilot / DeepSeek V4.1 Flash)
+			"command": "bash -c 'mvn clean package -U -Dmaven.test.skip=true'",
+			"dependsOn": ["Install local JARs (Maven)"],
+			"dependsOrder": "sequence",
+			// AI modification end
 			"group": "build",
 			"problemMatcher": [],
 			"presentation": {
