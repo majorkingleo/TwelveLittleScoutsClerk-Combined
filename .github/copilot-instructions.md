@@ -7,6 +7,8 @@ for integrated development and debugging:
 - **TwelveLittleScoutsClerk** (`TwelveLittleScoutsClerk/`) — The scouts-clerk application
   that depends on FrameWork
 
+- use a local tmp folder for temporary files, e.g. `/tmp/ods_check` for LibreOffice ODS validation.
+
 ---
 
 ## Project Structure
