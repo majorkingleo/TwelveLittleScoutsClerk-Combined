@@ -35,7 +35,7 @@ for integrated development and debugging:
 ## TwelveLittleScoutsClerk Module
 
 Instructions specific to `TwelveLittleScoutsClerk/`:
-
+P
 - When asked to create a new dialog, list view, CRUD screen, or menu entry in the Daten
   menu, use the skill at `TwelveLittleScoutsClerk/.github/skills/netbeans-dialog/SKILL.md`.
 - On any dialog manipulation, read the netbeans-dialog skill first.
